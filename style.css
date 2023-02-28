@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 35px;
+
+}
+h2{
+    font: size 30px;
+}
+.work{
+    margin-top: 20px;
+    text-align: center;
+    border: 1px solid red;
+}
+.name-highlite{
+    color: rgba(236,76,122,255);
+}
+p{
+    color: #707070;
+    text-align: justify;
+}
+
+.half-width{
+    width:40%;
+    padding: 3%;
+    margin: 2%;
+    float: left;
+}
+.half-width img{
+    width: 100%
+}
+.top-banner{
+    height: 800px;
+    padding-bottom: 270px;
+    border: 1px solid red;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg, #ec4c78, #ba4061);
+}
+.biograopgy{
+    height: 675px;
+    padding-bottom: 170px;
+    border: 1px solid red;
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work{
+    height: 400px;
+    padding-bottom: 130px;
+    border: 1px solid red;
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.my-work{
+    width: 23%;
+    padding: 3%;
+    margin: 2%;
+    float: left;
+}
+.my-work img{
+    width: 100%;
+}
+.client{
+    text-align: center;
+    height: 400px;
+    padding-bottom: 200px;
+    border: 1px solid red;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+}
+.client p{
+    text-align: center;
+
+}
+#question{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+#question-1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+#question-2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
+#question-3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid red;
+}
