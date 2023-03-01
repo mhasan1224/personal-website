@@ -3,16 +3,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h1{
-    font-size: 35px;
+    font-size: 40px;
 
 }
 h2{
-    font: size 30px;
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
 }
 .work{
     margin-top: 20px;
     text-align: center;
-    border: 1px solid red;
 }
 .name-highlite{
     color: rgba(236,76,122,255);
@@ -23,7 +25,7 @@ p{
 }
 
 .half-width{
-    width:40%;
+    width: 40%;
     padding: 3%;
     margin: 2%;
     float: left;
@@ -34,7 +36,6 @@ p{
 .top-banner{
     height: 800px;
     padding-bottom: 270px;
-    border: 1px solid red;
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
 }
@@ -49,14 +50,12 @@ p{
 .biograopgy{
     height: 675px;
     padding-bottom: 170px;
-    border: 1px solid red;
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
 }
 .latest-work{
     height: 400px;
     padding-bottom: 130px;
-    border: 1px solid red;
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
 }
@@ -65,15 +64,16 @@ p{
     padding: 3%;
     margin: 2%;
     float: left;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
 }
 .my-work img{
     width: 100%;
 }
 .client{
     text-align: center;
-    height: 400px;
-    padding-bottom: 200px;
-    border: 1px solid red;
+    height: 550px;
+    padding-bottom: 250px;
     background-image: url(images/footer-bg.png);
     background-repeat: no-repeat;
 }
@@ -82,22 +82,35 @@ p{
 
 }
 #question{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid red;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #question-1{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid red;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 #question-2{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid red;
+    margin-top: 30px;
+    padding-bottom: 30px;
 }
 #question-3{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: 1px solid red;
+    margin-top: 30px;
+    margin-left: 17.5%;
+    width: 65%;
+    height: 30%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: rgba(236,76,122,255) ;
+}
+.address{
+    padding-top: 38px;
+    text-decoration: none;
+    color: white;
+}
+.address p{
+    color: white;
+}
+footer p{
+    text-align: center;
 }
